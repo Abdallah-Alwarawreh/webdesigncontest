@@ -1,0 +1,52 @@
+body{
+    background:black;
+    scroll-behavior:smooth;
+    color:white;
+    font-family:calibri;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+
+h1{
+    display:inline;
+}
+
+h1 a{
+    transition:all 0.3s ease;
+}
+
+h1 a:hover{
+    color:#999;
+    font-size:30px;
+}
+
+.main{
+    background:linear-gradient(135deg, #111 0%, #222 100%);
+    width:80%;
+    height:auto;
+    margin:10% 10% 10% 10%;
+    padding:5px 5px 5px 5px;
+}
+
+.main-container{
+    margin:5px 5px 5px 5px;
+}
+
+.dark{
+    transition:all 0.3s ease;
+}
+
+.animated{
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.dark:hover{
+    color:#333;
+}
+
+.animated:hover{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
